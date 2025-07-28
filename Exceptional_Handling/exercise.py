@@ -2,7 +2,6 @@
 
 a = int(input("Enter the first number: "))
 b = int(input("Enter the second number: "))
-
 try:
     print(a/b)
 except Exception as e:
@@ -42,6 +41,5 @@ try:
         print("Positive")
     else:
         print("Negative")
-        
 except Exception as e:
     print(e)
